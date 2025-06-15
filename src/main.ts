@@ -13,6 +13,8 @@ async function bootstrap() {
       'http://localhost:3001',
       'http://localhost:5173', // Vite default
       'http://localhost:4200', // Angular default
+      'https://uat.fabsinfotech.in', // Add your frontend domain here
+      'https://fabsinfotech.in', 
       'https://your-frontend-domain.com', // Your actual frontend domain
       /https:\/\/.*\.ngrok-free\.app$/, // Allow any ngrok URL
       /https:\/\/.*\.ngrok\.io$/ // Allow ngrok.io URLs too
