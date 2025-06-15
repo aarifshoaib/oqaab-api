@@ -234,7 +234,7 @@ export class CybersourceController {
             await this.logTransactionResult(responsePageData);
 
             // Redirect to your frontend response page with the data
-            const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:5173';
+            const frontendUrl = process.env.FRONTEND_URL || 'https://uat.fabsinfotech.in';
             const queryParams = new URLSearchParams({
                 success: responsePageData.success.toString(),
                 decision: responsePageData.decision,
