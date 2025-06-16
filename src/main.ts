@@ -14,6 +14,8 @@ async function bootstrap() {
       'http://localhost:5173', // Vite default
       'http://localhost:4200', // Angular default
       'https://uat.fabsinfotech.in', // Add your frontend domain here
+      'https://oqaabfashions.com',
+      'https://www.oqaabfashions.com',
       'https://fabsinfotech.in', 
       'https://your-frontend-domain.com', // Your actual frontend domain
       /https:\/\/.*\.ngrok-free\.app$/, // Allow any ngrok URL
